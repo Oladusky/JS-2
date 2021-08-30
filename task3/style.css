@@ -1,0 +1,79 @@
+#trafficLight1, #trafficLight2, #trafficLight3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: black;
+}
+
+
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+body {
+  background-color: rgb(221, 211, 211);
+}
+.wrapper {
+  margin: 15px;
+  
+}
+
+a {
+
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-top: 30px;
+  padding-left: 85px;
+  letter-spacing: 1px;
+  color: rgb(108, 18, 18);
+}
+
+#trafficLight {
+  height: 600px;
+  width: 200px;
+  margin-top: 30px;
+  border: 3px solid black;
+  border-radius: 30px;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #8C1B1B, #490E0E)
+}
+
+#trafficLight1, #trafficLight2, #trafficLight3 {
+  width: 170px;
+  height: 170px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: black;
+  box-shadow: 0 0 25px rgb(174, 170, 170);
+}
+
+div {
+  cursor: pointer;
+}
+
+#stick {
+  position: absolute;
+  bottom: -56px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 30px;
+  height: 50px;
+  border: 3px solid black;
+  border-top: 3px solid #490E0E;
+  border-bottom: 3px solid #490E0E;
+  background: #490E0E;
+}
